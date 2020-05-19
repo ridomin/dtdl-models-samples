@@ -1,0 +1,17 @@
+{
+  "name": "@digital-twins/com-example-thermostat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "models/thermostat.json",
+  "models": [
+    "models/thermostat.json", 
+    "models/temperaturesensor.json"],
+  "scripts": {},
+  "dependencies": {
+      "@digital-twins/azure-devicemanagement-deviceinformation" : "1.0.0",
+      "@digital-twins/com-example-diagnostics" : "1.0.0"
+  },
+  "keywords": [],
+  "author": "rido",
+  "license": "ISC"
+}

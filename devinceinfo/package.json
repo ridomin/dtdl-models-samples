@@ -1,0 +1,15 @@
+{
+  "name": "@digital-twins/azure-devicemanagement-deviceinformation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "deviceinformation.json",
+  "models" : [
+    "deviceinformation.json"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["dtdl", "iotpnp"],
+  "author": "rido",
+  "license": "MIT"
+}
