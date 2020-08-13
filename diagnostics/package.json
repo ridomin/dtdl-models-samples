@@ -1,0 +1,9 @@
+{
+  "name": "rido-diagnostics",
+  "version": "1.0.0",
+  "description": "",
+  "models": ["diagnostics.json"],
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

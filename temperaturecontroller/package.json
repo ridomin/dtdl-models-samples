@@ -1,0 +1,15 @@
+{
+  "name": "@digital-twins/com-example-temperaturecontroller",
+  "version": "1.0.1",
+  "description": "",
+  "models": [
+    "temperaturecontroller.json"
+  ],
+  "dependencies": {
+    "@digital-twins/com-example-thermostat" : "1.1.0",
+    "@digital-twins/azure-devicemanagement-deviceinformation" : "1.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
