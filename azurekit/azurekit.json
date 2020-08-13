@@ -1,0 +1,131 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:com:rido:azurekit;1",
+    "@type": "Interface",
+    "displayName": "AzureKit",
+    "contents": [
+        {
+            "@type": "Command",
+            "request": {
+                "name": "echocommandrequest",
+                "schema": {
+                    "@type": "Object",
+                    "fields": {
+                        "@type": "SchemaField",
+                        "displayName": "Send message to device",
+                        "name": "displayedValue",
+                        "schema": "string"
+                    }
+                }
+            },
+            "response": {
+                "schema": "string",
+                "name": "echocommandresponse"
+            },
+            "displayName": "Message",
+            "name": "echo"
+        },
+        {
+            "@type": "Telemetry",
+            "description": "Current Pitch on the device",
+            "displayName": "Pitch",
+            "name": "pitch",
+            "schema": "long"
+        },
+        {
+            "@type": "Telemetry",
+            "description": "Current Roll on the device",
+            "displayName": "Roll",
+            "name": "roll",
+            "schema": "long"
+        },
+        {
+            "@type": "Telemetry",
+            "description": "Current Pressure on the device",
+            "displayName": "Pressure",
+            "name": "pressure",
+            "schema": "double"
+        },
+        {
+            "@type": "Telemetry",
+            "description": "Current Altitude on the device",
+            "displayName": "Altitude",
+            "name": "altitude",
+            "schema": "double"
+        },
+        {
+            "@type": "Telemetry",
+            "description": "Current MagnetometerX on the device",
+            "displayName": "MagnetometerX",
+            "name": "MagnetX",
+            "schema": "long"
+        },
+        {
+            "@type": "Telemetry",
+            "description": "Current MagnetometerX on the device",
+            "displayName": "MagnetometerY",
+            "name": "MagnetY",
+            "schema": "long"
+        },
+        {
+            "@type": "Telemetry",
+            "description": "Current MagnetometerZ on the device",
+            "displayName": "MagnetometerZ",
+            "name": "MagnetZ",
+            "schema": "long"
+        },
+        {
+            "@type": "Command",
+            "response": {
+                "schema": "string",
+                "name": "startfanresponse"
+            },
+            "displayName": "Start Fan",
+            "name": "startFan"
+        },
+        {
+            "@type": "Command",
+            "response": {
+                "schema": "string",
+                "name": "stopfanresponse"
+            },
+            "displayName": "Stop Fan",
+            "name": "stopFan"
+        },
+        {
+            "@type": "Property",
+            "displayName": "Fan Speed",
+            "name": "fanSpeed",
+            "writable": true,
+            "schema": "double"
+        },
+        {
+            "@type": "Property",
+            "displayName": "Temperature Threshold",
+            "name": "tempThreshold",
+            "writable": true,
+            "schema": "double"
+        },
+        {
+            "@type": "Telemetry",
+            "description": "Current temperature on the device",
+            "displayName": "Temperature",
+            "name": "temp",
+            "schema": "double"
+        },
+        {
+            "@type": "Telemetry",
+            "description": "Current humidity on the device",
+            "displayName": "Humidity",
+            "name": "humid",
+            "schema": "double"
+        },
+        {
+            "@type": "Telemetry",
+            "description": "Current AmbientLight on the device",
+            "displayName": "AmbientLight",
+            "name": "light",
+            "schema": "double"
+        }
+    ]    
+}

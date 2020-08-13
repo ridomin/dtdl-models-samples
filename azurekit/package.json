@@ -1,0 +1,9 @@
+{
+  "name": "@rido-devices/azurekit",
+  "version": "1.0.0",
+  "description": "",
+  "models": ["azurekit.json", "esp32-azure.json"],
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

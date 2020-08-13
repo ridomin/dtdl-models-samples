@@ -1,0 +1,12 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:com:rido:esp:azurekit;1",
+    "@type": "Interface",
+    "contents" : [
+      { 
+        "@type": "Component",
+        "name": "azurekit",
+        "schema" : "dtmi:com:rido:azurekit;1"
+      }   
+    ]
+}

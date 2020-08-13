@@ -1,0 +1,8 @@
+{
+  "name": "@rido-devices/adu",
+  "version": "1.0.0",
+  "description": "",
+  "models" : ["AzureDeviceUpdate.json"],
+  "author": "rido",
+  "license": "ISC"
+}
